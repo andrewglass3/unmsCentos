@@ -5,13 +5,15 @@ yum update -y
 
 # Install yum-plugins-core package to provide the commands to manage your yum repos
 
-yum -y install yum-plugins-core
+yum -y yum install -y yum-utils \
+  device-mapper-persistent-data \
+  lvm2
 
 # Set up the Docker stable repo
 
 yum config-manager -y \
     --add-repo \
-    https://download.docker.com/linux/fedora/docker-ce.repo
+    https://download.docker.com/linux/centos/docker-ce.repo
 
 # Install docker 
 
