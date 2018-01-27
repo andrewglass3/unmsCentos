@@ -11,7 +11,7 @@ yum -y yum install -y yum-utils \
 
 # Set up the Docker stable repo
 
-yum config-manager -y \
+yum-config-manager -y \
     --add-repo \
     https://download.docker.com/linux/centos/docker-ce.repo
 
