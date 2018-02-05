@@ -10,7 +10,7 @@ sudo su -
 
 Chmod +x the install.sh and run using ./install.sh
 
-The unms installer fails due to the docker service not being available during its install script - I wrote this simple hacky script to enable the unms installer to continue.
+The unms installer fails due to the docker service not being available during its install script - I wrote this simple script to enable the unms installer to continue.
 
 The only interaction required is to say yes or no when you get the prompt:
 
