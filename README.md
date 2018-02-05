@@ -14,6 +14,6 @@ The unms installer fails due to the docker service not being available during it
 
 The only interaction required is to say yes or no when you get the prompt:
 
-"Our distribution 'fedora 27' is not supported. We recommend that you install UNMS on Ubuntu 16.04, Debian 8 or newer. Would you like to continue with the installation anyway? [y/N]"
+"Our distribution 'Centos 7' is not supported. We recommend that you install UNMS on Ubuntu 16.04, Debian 8 or newer. Would you like to continue with the installation anyway? [y/N]"
 
 Just hit y then browse to https://yourIP
