@@ -5,7 +5,7 @@ yum update -y
 
 # Install yum-plugins-core package to provide the commands to manage your yum repos
 
-yum -y yum install -y yum-utils \
+yum install -y yum-utils \
   device-mapper-persistent-data \
   lvm2
 
